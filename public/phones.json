@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "img": "https://i.ibb.co.com/kJhxbHr/iphone-13.jpg",
+    "title": "iPhone 13 Pro",
+    "description": "The iPhone 13 Pro features a 6.1-inch Super Retina XDR display, A15 Bionic chip, and a triple-camera system.",
+    "price": 999
+  },
+  {
+    "id": 2,
+    "img": "https://i.ibb.co.com/JvMYqdp/s21.jpg",
+    "title": "Samsung Galaxy S21",
+    "description": "The Samsung Galaxy S21 comes with a 6.2-inch Dynamic AMOLED display, Exynos 2100, and a triple rear camera setup.",
+    "price": 799
+  },
+  {
+    "id": 3,
+    "img": "https://i.ibb.co.com/dGqVXCc/pisels-6.jpg",
+    "title": "Google Pixel 6",
+    "description": "Google Pixel 6 is powered by the Google Tensor chip and features a 6.4-inch AMOLED display with dual rear cameras.",
+    "price": 699
+  },
+  {
+    "id": 4,
+    "img": "https://i.ibb.co.com/F8ycpG9/9p-Pine-Green.png",
+    "title": "OnePlus 9 Pro",
+    "description": "OnePlus 9 Pro offers a 6.7-inch Fluid AMOLED display, Snapdragon 888, and Hasselblad-tuned quad cameras.",
+    "price": 969
+  },
+  {
+    "id": 5,
+    "img": "https://i.ibb.co.com/cxP1sVJ/pc-section-01.jpg",
+    "title": "Xiaomi Mi 11 Ultra",
+    "description": "Xiaomi Mi 11 Ultra features a 6.81-inch AMOLED display, Snapdragon 888, and a 50MP triple camera setup.",
+    "price": 899
+  }
+]
