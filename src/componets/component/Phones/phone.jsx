@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 
 const Phone = ({ Ph,handleAddToCart }) => {
   console.log(Ph)
-  const {img,id,price,title}=Ph
+  const {img,price,title}=Ph
   return (
     <div>
     
@@ -22,6 +22,7 @@ const Phone = ({ Ph,handleAddToCart }) => {
   );
 };
 Phone.propTypes = {
-  Ph: PropTypes.object.isRequired
+  Ph: PropTypes.object.isRequired,
+  handleAddToCart:PropTypes.object.isRequired
 }
 export default Phone;

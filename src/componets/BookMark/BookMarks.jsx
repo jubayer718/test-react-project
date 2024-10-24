@@ -14,4 +14,9 @@ const BookMarks = ({handleDelete, cart}) => {
 BookMarks.propTypes = {
   cart: PropTypes.object.isRequired
 }
+
+
+BookMarks.propTypes = {
+  handleDelete:PropTypes.object.isRequired,
+}
 export default BookMarks;

@@ -20,7 +20,9 @@ const Bookmark = ({ cart,handleDelete }) => {
   );
 };
 Bookmark.propTypes = {
-  cart:PropTypes.object
+  cart: PropTypes.object,
+
+  handleDelete:PropTypes.object.isRequired
 }
 
 export default Bookmark;

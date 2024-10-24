@@ -4,6 +4,7 @@ import { useState } from "react";
 
 import { useEffect } from "react";
 import Phone from "./phone";
+import PropTypes from "prop-types";
 const Phones = ({handleAddToCart}) => {
   const [phones, setPhone] = useState([])
   useEffect(() => {
@@ -21,5 +22,9 @@ const Phones = ({handleAddToCart}) => {
     </div>
   );
 };
+Phones.propTypes = {
+  handleAddToCart: PropTypes.object.isRequired,
+  
+}
 
 export default Phones;
